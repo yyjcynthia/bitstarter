@@ -12,7 +12,7 @@ var outstring = buffer.toString('utf-8');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('outpu');
+  response.send(outpu);
 });
 
 var port = process.env.PORT || 5000;
